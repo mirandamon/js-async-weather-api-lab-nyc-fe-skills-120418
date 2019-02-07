@@ -8,7 +8,7 @@ function handleFormSubmit(event) {
   //handle submit event
   event.preventDefault()
   // Get the text that they typed in
-  
+  const input = document.querySelector()
 }
 
 function fetchCurrentWeather(city) {
