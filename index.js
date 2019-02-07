@@ -7,7 +7,8 @@ const API_KEY = "9fe41d51c1b087845b518de5bd00e6fd"
 function handleFormSubmit(event) {
   //handle submit event
   event.preventDefault()
-  console.log('sup')
+  // Get the text that they typed in
+  
 }
 
 function fetchCurrentWeather(city) {
