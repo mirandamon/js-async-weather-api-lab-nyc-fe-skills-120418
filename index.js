@@ -11,6 +11,7 @@ function handleFormSubmit(event) {
   const input = document.querySelector('#city')
   // use the .value to get the text
   const whatTheyTyped = input.value
+  console.log(whatTheyTyped)
 }
 
 function fetchCurrentWeather(city) {
