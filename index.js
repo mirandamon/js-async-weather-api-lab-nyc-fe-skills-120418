@@ -1,6 +1,6 @@
 const API_KEY = "YOUR API KEY"
 
-// 1. We need an event listener for the input box ()
+// 1. We need an event listener for the input box ('submit')
 
 function handleFormSubmit(event) {
   //handle submit event
