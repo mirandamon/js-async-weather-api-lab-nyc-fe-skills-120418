@@ -1,7 +1,8 @@
 const API_KEY = "YOUR API KEY"
 
 // 1. We need an event listener for the input box ('submit')
-// 2. Fetches data from the weather API 
+// 2. Get what they typed in, and then Fetch data from the weather API for that city
+// 3. Fill out the forecast/graph
 
 
 function handleFormSubmit(event) {
