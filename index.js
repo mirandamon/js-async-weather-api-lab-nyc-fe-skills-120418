@@ -1,4 +1,4 @@
-const API_KEY = "YOUR API KEY"
+const API_KEY = "9fe41d51c1b087845b518de5bd00e6fd"
 
 // 1. We need an event listener for the input box ('submit')
 // 2. Get what they typed in, and then Fetch data from the weather API for that city
