@@ -4,6 +4,8 @@ const API_KEY = "9fe41d51c1b087845b518de5bd00e6fd"
 // 2. Get what they typed in, and then Fetch data from the weather API for that city
 // 3. Fill out the forecast/graph
 
+// 1. Find the element that you need
+
 function handleFormSubmit(event) {
   //handle submit event
 }
