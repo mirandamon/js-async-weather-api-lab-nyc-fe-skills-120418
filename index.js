@@ -7,8 +7,10 @@ const API_KEY = "9fe41d51c1b087845b518de5bd00e6fd"
 function handleFormSubmit(event) {
   //handle submit event
   event.preventDefault()
-  // Get the text that they typed in
-  const input = document.querySelector()
+  // Get the input that they typed in
+  const input = document.querySelector('#city')
+  // use the .value to get the text
+  const whatTheyTyped = input.value
 }
 
 function fetchCurrentWeather(city) {
