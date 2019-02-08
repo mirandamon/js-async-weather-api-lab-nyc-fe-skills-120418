@@ -50,16 +50,20 @@ function fetchFiveDayForecast(city) {
 function displayFiveDayForecast(json) {
   //render five day forecast data to the DOM using provided IDs and json from API
   
+  // "<div> <p> day </p> <p>low</p> <p>high</p> </div>" 
+  let innerHTMLString = ''
   for (let forecast of json.list) {
     // 3 things: we want the day, we want the low, and the 
+    let currentDivString = '<div>'
     const day = forecast.dt_txt
     const low = forecast.main.temp_min 
     const high = forecast.main.temp_max
-    
+    currentDivString = currentDivString + "<p>" + day + "</p>" + "<p>" + low + "</p>" + "<p>" + high + "</p>" + "</div>"
+    innerHTMLString = innerHTMLString + currentDivString
     // put this in a div
     // const div = document.createElement()
-    
   }
+  console.log(innerHTMLString)
 }
 
 function createChart(json) {
