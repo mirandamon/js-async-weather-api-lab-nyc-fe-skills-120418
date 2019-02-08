@@ -74,7 +74,7 @@ function createChart(json) {
   //Bonus: render temperature chart using five day forecast data and ChartJS
   const ctx = document.getElementById('WeatherChart').getContext('2d')
   var myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
         labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
         datasets: [{
