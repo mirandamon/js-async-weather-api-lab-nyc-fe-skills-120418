@@ -58,9 +58,8 @@ function displayFiveDayForecast(json) {
     
     // put this in a div
     // const div = document.createElement()
-    <span><div>hi</div></span>
-    span.innerText = '<div>hi</div>'
-    span.innerHTML = '<div>hi</div>'
+    <span>hi</span>
+    span.innerHTML = '<li>hi</li><li>hi</li>'
   }
 }
 
