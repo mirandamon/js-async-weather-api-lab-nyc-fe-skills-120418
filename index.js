@@ -49,9 +49,8 @@ function fetchFiveDayForecast(city) {
 
 function displayFiveDayForecast(json) {
   //render five day forecast data to the DOM using provided IDs and json from API
-  console.log(json)
   for (let forecast of json.list) {
-    
+    console.log(forecast.main.temp_min)
   }
 }
 
