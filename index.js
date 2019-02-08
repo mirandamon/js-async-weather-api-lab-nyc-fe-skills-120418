@@ -17,6 +17,7 @@ function handleFormSubmit(event) {
 
 function fetchCurrentWeather(city) {
   //fetch current weather based on city
+  // query parameter
   fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city)
 }
 
