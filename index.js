@@ -35,7 +35,7 @@ function displayCurrentWeather(json) {
   tableCell.innerHTML = currentTemperature
   lowCell.innerHTML = json.main.temp_min
   highCell.innerHTML = json.main.temp_max
-  humidityCell.innerHTML =
+  humidityCell.innerHTML = json.main.humidity
   cloudCell.innerHTML = 
 }
 
