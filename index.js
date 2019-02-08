@@ -33,8 +33,8 @@ function displayCurrentWeather(json) {
   const cloudCell = document.querySelector('#cloudCover') 
   const currentTemperature = json.main.temp
   tableCell.innerHTML = currentTemperature
-  lowCell.innerHTML = 
-  highCell.innerHTML = 
+  lowCell.innerHTML = json.main.temp_min
+  highCell.innerHTML = json.main.temp_max
   humidityCell.innerHTML =
   cloudCell.innerHTML = 
 }
