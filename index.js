@@ -80,7 +80,7 @@ function createChart(json) {
     data: {
         labels: dateLabels,
         datasets: [{
-            label: '# of Votes',
+            label: 'Temperature',
             data: tempData,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
