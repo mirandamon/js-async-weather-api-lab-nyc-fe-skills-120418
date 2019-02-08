@@ -49,6 +49,7 @@ function fetchFiveDayForecast(city) {
 
 function displayFiveDayForecast(json) {
   //render five day forecast data to the DOM using provided IDs and json from API
+  
 }
 
 function createChart(json) {
