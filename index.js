@@ -52,9 +52,9 @@ function displayFiveDayForecast(json) {
   console.log(json)
   for (let forecast of json.list) {
     // 3 things: we want the day, we want the low, and the 
-    // const day
-    // const low 
-    // const high
+    const day = forecast.dt_txt
+    const low = forecast.main.temp_min 
+    const high = forecast.main.temp_max
   }
 }
 
