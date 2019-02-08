@@ -12,10 +12,12 @@ function handleFormSubmit(event) {
   // use the .value to get the text
   const whatTheyTyped = input.value
   fetchCurrentWeather(whatTheyTyped)
+  fetchFiveDayForecast(whatTheyTyped)
 }
 
 function fetchCurrentWeather(city) {
   //fetch current weather based on city
+  fetch()
 }
 
 function displayCurrentWeather(json) {
