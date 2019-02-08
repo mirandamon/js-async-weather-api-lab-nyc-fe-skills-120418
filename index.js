@@ -77,7 +77,7 @@ function createChart(json) {
   var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['02-08-2019 3:00'],
+        labels: dateLabels,
         datasets: [{
             label: '# of Votes',
             data: [12, 19, 3, 5, 2, 3],
