@@ -55,6 +55,9 @@ function displayFiveDayForecast(json) {
     const day = forecast.dt_txt
     const low = forecast.main.temp_min 
     const high = forecast.main.temp_max
+    
+    // put this in a div
+    
   }
 }
 
