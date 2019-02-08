@@ -20,7 +20,7 @@ function fetchCurrentWeather(city) {
   // query parameter
   fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=' + API_KEY)
     .then((response) => response.json())
-    .then((json) => console.log(json))
+    .then((json) => displayCurrentWeather(json))
 }
 
 function displayCurrentWeather(json) {
