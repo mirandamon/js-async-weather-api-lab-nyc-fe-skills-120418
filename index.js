@@ -77,7 +77,7 @@ function createChart(json) {
   const tempData = json.list.map((forecast) => forecast.main.temp)
   const ctx = document.getElementById('WeatherChart').getContext('2d')
   var myChart = new Chart(ctx, {
-    type: 'line',
+    type: 'pie',
     data: {
         labels: dateLabels,
         datasets: [{
