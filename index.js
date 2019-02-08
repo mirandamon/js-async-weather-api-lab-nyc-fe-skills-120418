@@ -27,10 +27,10 @@ function displayCurrentWeather(json) {
   //render current weather data to the DOM using provided IDs and json from API
   // Update our HTML
   const tableCell = document.querySelector('#temp')
-  const lowCell = document.querySelector('')
-  const highCell = document.querySelector('')
-  const humidityCell = document.querySelector('')
-  const cloudCell = document.querySelector('') 
+  const lowCell = document.querySelector('#low')
+  const highCell = document.querySelector('#high')
+  const humidityCell = document.querySelector('#humidity')
+  const cloudCell = document.querySelector('#cloudCover') 
   const currentTemperature = json.main.temp
   tableCell.innerHTML = currentTemperature
 }
