@@ -63,7 +63,8 @@ function displayFiveDayForecast(json) {
     // put this in a div
     // const div = document.createElement()
   }
-  .innerHTML = innerHTMLString
+  const aside = document.querySelector('aside')
+  aside.innerHTML = innerHTMLString
 }
 
 function createChart(json) {
